@@ -1,6 +1,6 @@
 services:
   rabbitmq:
-    image: rabbitmq:4-management-alpine
+    image: rabbitmq:4.0.9-alpine
     hostname: rabbitmq
     container_name: rabbitmq
     ports:
